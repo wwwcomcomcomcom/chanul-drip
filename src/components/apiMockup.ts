@@ -100,5 +100,10 @@ export function generatePosts() {
       title: "알파벳 E를 자르면?",
       content: "귀여움 CUT E",
     },
+    {
+      id: 21,
+      title: "심박수가 가장 높은 아이스크림은?",
+      content: "설레임",
+    },
   ];
 }
