@@ -36,7 +36,7 @@ export default function HomeMain() {
         <div className="flex flex-col w-full">
           <div className="relative w-full h-[40vh]">
             <div
-              className="absolute inset-0 bg-cover bg-center opacity-50"
+              className="absolute inset-0 bg-cover bg-center opacity-60"
               style={{
                 backgroundImage:
                   "url(https://cdn.discordapp.com/attachments/1264849846213546005/1266254268340633631/Clipped_image_20240508_230611.png?ex=66a47aaf&is=66a3292f&hm=d34e25bdb8d1f2d8b73e8fc0a8baddebda84d7aa37939f5603c35995fca7dc2d&)",
@@ -44,7 +44,7 @@ export default function HomeMain() {
             ></div>
             <div className="relative z-10 flex flex-col items-center justify-center h-full text-white">
               <h1 className="text-4xl font-extrabold bg-black p-3 px-6 rounded-3xl">
-                찬울이의 데일리 드립즈
+                ❄️ 데일리 드립즈 ❄️
               </h1>
               <p className="text-lg py-3 text-black">
                 Welcome to the home page :]

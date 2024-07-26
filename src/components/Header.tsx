@@ -8,7 +8,7 @@ export default function Header() {
   const isActive = (path: string) => location.pathname === path;
 
   return (
-    <header className="border-b border-gray-300 h-16 w-full flex justify-center gap-6 items-center font-semibold text-lg">
+    <header className="h-16 w-full flex justify-center gap-6 items-center font-semibold text-lg">
       <div
         className={`cursor-pointer ${isActive("/") ? "text-blue-500" : ""}`}
         onClick={() => navigate("/")}
