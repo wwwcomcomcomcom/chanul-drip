@@ -44,7 +44,7 @@ export default function HomeMain() {
             ></div>
             <div className="relative z-10 flex flex-col items-center justify-center h-full text-white">
               <h1 className="text-4xl font-extrabold bg-black p-3 px-6 rounded-3xl">
-                Home
+                찬울이의 데일리 드립즈
               </h1>
               <p className="text-lg py-3 text-black">
                 Welcome to the home page :]
@@ -70,14 +70,16 @@ export default function HomeMain() {
           </div>
         </div>
       </div>
-      <div className="border-gray-400 w-full">
-        <div className="grid grid-cols-4 py-8 gap-6  max-w-7xl w-5/6">
+      <div className="w-full px-36 pt-10">
+        <hr></hr>
+        <div className="pl-10 text-xl font-semibold pt-10">Team members✨</div>
+        <div className="grid grid-cols-4 py-8 gap-6 max-w-7xl mx-auto">
           <div className="flex flex-col items-center">
             <img
               src="https://avatars.githubusercontent.com/u/68013923?v=4"
               className="rounded-full w-24 cursor-pointer"
               onClick={seminGitHubProfileLink}
-            ></img>
+            />
             <h2 className="font-semibold pb-5 pt-2">이세민</h2>
           </div>
           <div className="flex flex-col items-center">
@@ -85,15 +87,15 @@ export default function HomeMain() {
               src="https://avatars.githubusercontent.com/u/164720957?v=4"
               className="rounded-full w-24 cursor-pointer"
               onClick={hyojooGitHubProfileLink}
-            ></img>
+            />
             <h2 className="font-semibold pb-5 pt-2">정효주</h2>
           </div>
           <div className="flex flex-col items-center">
             <img
               src="https://avatars.githubusercontent.com/u/168736494?v=4"
               className="rounded-full w-24 cursor-pointer"
-              onClick={damYulGitHubProfileLink}
-            ></img>
+              onClick={chanulGitHubProfileLink}
+            />
             <h2 className="font-semibold pb-5 pt-2">박찬울</h2>
           </div>
           <div className="flex flex-col items-center">
@@ -101,7 +103,7 @@ export default function HomeMain() {
               src="https://avatars.githubusercontent.com/u/162972723?v=4"
               className="rounded-full w-24 cursor-pointer"
               onClick={damYulGitHubProfileLink}
-            ></img>
+            />
             <h2 className="font-semibold pb-5 pt-2">김담율</h2>
           </div>
         </div>
