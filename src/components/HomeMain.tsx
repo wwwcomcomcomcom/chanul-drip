@@ -1,10 +1,5 @@
+import { Post } from "./api";
 import { generatePosts } from "./apiMockup";
-
-type Post = {
-  id: number;
-  title: string;
-  content: string;
-};
 
 // Function to shuffle an array of Posts
 function shuffle(array: Post[]): Post[] {
@@ -62,7 +57,7 @@ export default function HomeMain() {
                     {post.title}
                   </h2>
                   <p className="text-xl font-medium pb-4 text-blue-600">
-                    {post.content}
+                    {post.body}
                   </p>
                 </div>
               </div>
